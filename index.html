@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Communication avec un smart contract</title>
+    <script src="web3min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Communication avec un smart contract</h1>
+ 
+  <form id="formName" >
+      <input  type="submit" value = "token Name"> </br> 
+  </form>
+           <p id="name"> </p></br>    
+
+ 
+  <form  id="formMax">
+      <input type="submit" value = "max Suply"> <br>
+  </form>
+           <p id="max"> </p><br>
+
+  <form id ="formBalance">
+      <label> get your balance: </label> <br>
+      <input id = "inputBalance" type="text" name = "inputBalance"> </br>
+      <input type = 'submit' value = 'balance'>
+  </form>
+          <p id="balance"> </p><br/>
+  
+
+ <form id="formTranf">
+      <label> enter address receive</label>
+      <input type="text" id= "addressReceive"><br>
+      <label> enter amount receive</label>
+      <input type="number" id = "amountReceive" ><br>
+      <input type = 'submit' value = 'send Token'>
+ </form>         
+         <p id="resulTransf"> </p>
+  
+</body>
+</html>
